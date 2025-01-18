@@ -1,32 +1,26 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MjLLqDcN)
 # HW1
 ## W1L2 In-Class Activity
-
-Put your notes from the W1L2 (Thurs, Jan 9) in-class activity here.
-
 "How would you desribe this game world in objects?"
+
 There is a Player object that the user will control. There are Plant objects that a Player object can place within the world. 
 There is a Camera object that will determine the angle that we are playing the game in. There are dynamic scoring objects that 
 detail the amount of seeds a player has and the amount of plants that are on screen. And there is an Environment object that
 determines the background of the game.
 
 "What attributes and actions do these objects have?"
+
 A Player has a static character design that can be moved using WASD keys. The player can also press SPACE to plant seeds. 
 Once a plant has been placed, the plant is unable to be moved or removed. When a player reaches 5 total plants placed, then 
 the player can continue pressing SPACE but no more plants will appear. The environment object itself as well as the camera 
 can not do anything.
 
 "How do these objects act on or affect each other?"
+
 Players can place plants which in turn affects the scoring objects. When the player places one plant, the "Seeds Remaining" 
 decreases by 1 while "Seeds Planted" increases by 1.
 
 ## Devlog
-Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lecture 2 (Jan 9) in-class activity (above). 
-If you did not attend and perform this activity, review the lecture slides and write your own plan for how you believe 
-HW1 should be built. If your initially proposed plan turned out significantly different than the activity answers given 
-by Prof Reid, you may want to note what was different. Then, write about how the plan you wrote in the break-down connects 
-to the code you wrote. Cite specific class names and method names in the code and GameObjects in your Unity Scene.
-
 **PLAN**
 *Step 1)* First, it is important to prepare all the objects so that we can do all the testing later when it is time to code. We need to
 havce a player object and a plant object to ensure we can validate the basic functionality of using WASD to move the Player object
@@ -105,3 +99,10 @@ their text into a stringified seedsPlanted and seedsLeft, respectively.
 ## Open-Source Assets
 If you added any other outside assets, list them here!
 - [Sprout Lands sprite asset pack](https://cupnooble.itch.io/sprout-lands-asset-pack) - character and item sprites
+
+## Prof comments
+Thank you for writing such a detailed Devlog, and for clearly connecting the plans that you wrote to your code! I hope that this process was helpful for your in figuring out how you should structure your game projects.
+
+I'm definitely looking forward to see what you write for the HW2 Devlog, especially in terms of how you imagine you'll want to structure your coding plans moving forward. The plans that you write for your final project will be super important, especially since the project will be much more complex than the homeworks, so it'll be good to keep developing how you want to write your plans and Devlogs (as long as you're always answering the Devlog prompt!).
+
+You may also want to check out this [README formatting guide here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to make sure your formatting turns out as expected.
